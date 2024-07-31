@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    fieldset{
+        border: solid red 6px;
+        border-radius: 10px;
+    }
+
+    .genmas{
+        color: blue;
+    }
+
+    .genfem{
+        color: palevioletred;
+    }
+</style>
+
+<body>
+    <h1>Cadastro de clientes</h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <p>Nome: </p><input type="text" name="name" class="fname"><br>
+        <p>Email:</p><input type="text" name="name" class="lname">
+    </fieldset>
+
+    <h2>sexo</h2>
+    
+    <p class="genmas"><input type="radio" name="gen" >Masculino</p> 
+    <p class="genfem"><input type="radio" name="gen" class="genfem">Feminino</p>
+
+    <h2>Hobbies</h2>
+    <input type="checkbox">Estudar<br>
+    <input type="checkbox">Dormir<br>
+    <input type="checkbox">Comer<br>
+
+    <h2>Sugestões:</h2>
+    <textarea name="message" rows="10" cols="30"></textarea><br>
+
+    <input type="submit" value="Enviar">
+
+
+
+</body>
+</html>
